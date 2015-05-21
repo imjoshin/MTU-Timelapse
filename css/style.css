@@ -3,6 +3,30 @@
 	padding:0px;
 }
 
+body{
+	min-width:700px;
+	min-height:400px;
+}
+
+#header{
+	height:100px;
+	width:100%;
+	background-color: #999999;
+	margin-bottom:20px;
+}
+
+#content{
+	text-align: center;
+}
+
+#footer{
+	position:absolute;
+	height:40px;
+	width:100%;
+	bottom:0px;
+	background-color: #000000;
+}
+
 select{
 	width:100px;
 }
@@ -11,18 +35,20 @@ select{
 	display:none;
 	position:absolute;
 	right:100px;
-	top:100px;
+	top:140px;
 	width:300px;
 	height:200px;
 	background-size:contain;
 }
 
 #imagePicker{
+	text-align: center;
 	width:500px;
 	margin:0 auto;
 }
 
 #choose{
+	margin:0 auto;
 	float:left;
 }
 
