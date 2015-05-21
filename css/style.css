@@ -1,4 +1,44 @@
 * {
-	margin: 0px;
-	padding: 0px;
+	margin:0px;
+	padding:0px;
+}
+
+select{
+	width:100px;
+}
+
+#imagePreview{
+	display:none;
+	position:absolute;
+	right:100px;
+	top:100px;
+	width:300px;
+	height:200px;
+	background-size:contain;
+}
+
+#imagePicker{
+	width:500px;
+	margin:0 auto;
+}
+
+#choose{
+	float:left;
+}
+
+#mover{
+	float:left;
+}
+
+#selected{
+	float:left;
+	width:150px;
+}
+
+#arrow{
+	width:40px;
+}
+
+#arrow:hover{
+	cursor:pointer;
 }
