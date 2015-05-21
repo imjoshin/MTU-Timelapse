@@ -33,6 +33,27 @@ $(document).ready(function(){
 		});
 	});
 
+	$("#create").on("click", function(){
+
+		getImages();
+		
+		$.ajax({
+			type: 'POST',
+			url: 'php/ajax.php',
+			async: false,
+			data: {
+				call: "create",
+				images: getImages()
+			},
+			success: function(output){
+				$("#link").html("<a href='" + output + "'>" + output + "</a>");
+			},
+			error: function(output){
+				alert("An error occured.");
+			}
+		});		
+	});
+
 	$("#arrow").on("click", function(){
 		$.each($("#images option:selected"), function(k, v){
 			var file = $("#dates").val() + "/" + $(v).val();
@@ -42,13 +63,6 @@ $(document).ready(function(){
 			}
 		});
 	});
-
-	function sortSelected(){
-		var soptions = $('#selected').sort(function(){
-			return (a.data("d") > b.data("d")) ? 1 : -1;
-		});
-		$("#selected").html(soptions);
-	}
 
 	$("#images, #selected").on("mouseover", "option", function(){
 		$("#imagePreview").css('background-image', 'url(cam/' + $(this).data("d") + "/" + $(this).data("h") + ".jpg" + ')');
@@ -61,11 +75,22 @@ $(document).ready(function(){
 	});
 
 	$("#selected").on("keyup", function(e){
-		if(e.keyCode == 46){
+		if(e.keyCode == 46)
 			$("#selected option:selected").remove();
-			/*$.each($("#selected option:selected"), function(){
-
-			}*/
-		}
 	});
+
+	function sortSelected(){
+		var soptions = $('#selected').sort(function(){
+			return (a.data("d") > b.data("d")) ? 1 : -1;
+		});
+		$("#selected").html(soptions);
+	}
+
+	function getImages(){
+		var ret = "";
+		$.each($("#selected option"), function(k, v){
+			ret += $(v).data("d") + "/" + $(v).data("h") + ".jpg" + ",";
+		});
+		return ret.substring(0, ret.length - 1);
+	}
 });
