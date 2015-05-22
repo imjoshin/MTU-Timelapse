@@ -1,5 +1,10 @@
 $(document).ready(function(){  
 
+	
+	///////////////////////
+	// STARTUP PROCESSES //
+	///////////////////////
+
 	$.ajax({
 		type: 'POST',
 		url: 'php/ajax.php',
@@ -14,6 +19,12 @@ $(document).ready(function(){
 			alert("An error occured.");
 		}
 	});
+
+
+
+	///////////////
+	// LISTENERS //
+	///////////////
 
 	$("#dates").on("change", function(){
 		$.ajax({
@@ -34,7 +45,6 @@ $(document).ready(function(){
 	});
 
 	$("#create").on("click", function(){
-
 		getImages();
 		
 		$.ajax({
@@ -43,10 +53,11 @@ $(document).ready(function(){
 			async: false,
 			data: {
 				call: "create",
-				images: getImages()
+				images: getImages(),
+				frames: $("#frames").val()
 			},
 			success: function(output){
-				$("#link").html("<a href='" + output + "'>" + output + "</a>");
+				$("#link").html("<a href='" + output + "' target='_blank'>" + output + "</a>");
 			},
 			error: function(output){
 				alert("An error occured.");
@@ -78,6 +89,46 @@ $(document).ready(function(){
 		if(e.keyCode == 46)
 			$("#selected option:selected").remove();
 	});
+
+	$("#frames").on("keyup", function(){
+		$("#frames").value = $("#frames").value.replace(/[^0-9]/g, '');
+	});
+
+	$("#presets").on("click", function(){
+		$("#presetDialog").dialog("open");
+	})
+
+	$("#presetDialog").dialog({
+		title: "Presets",
+		autoOpen: false,
+		position: ['top', 100],
+		width: 300,
+		height: 400,
+		resizable: false,
+		buttons: {
+			"OK" : function(){
+				$("#presetDialog").dialog("close");
+			}
+		},
+		show: {
+			effect: "fadeIn",
+			duration: 300
+		},
+
+		hide: {
+			effect: "fadeOut",
+			duration: 300
+		},
+		open: function (e, ui) {
+			$(this).parent().find(".ui-dialog-buttonpane .ui-button").addClass("form");
+		}	
+	});
+
+
+
+	///////////////
+	// FUNCTIONS //
+	///////////////
 
 	function sortSelected(){
 		var soptions = $('#selected').sort(function(){

@@ -2,6 +2,9 @@
 header('Content-type:image/gif');
 include("plugins/GIFEncoder.class.php");
 $images = explode(",", $_POST["images"]);
+$f = intval($_POST["frames"]);
+if($f <= 0 || $f >= 1000)
+    $f == 25;
 
 foreach($images as $i){
 	$image = imagecreatefromjpeg("../cam/" . $i);
@@ -9,7 +12,7 @@ foreach($images as $i){
 	ob_start();
 	imagegif($image);
 	$frames[] = ob_get_contents();
-	$framed[] = 40;
+	$framed[] = $f;
 	ob_end_clean();
 }
 

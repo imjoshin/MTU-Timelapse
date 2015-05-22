@@ -5,6 +5,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="img/ico.png">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/ui.css">
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
@@ -12,10 +13,12 @@
 
 <body>
 	<div id="header">
-
+		<h1>MTU Timelapse Generator</h1>
 	</div>
 
 	<div id="content">
+
+		<input id="presets" type="button" value="Presets"><br><br>
 
 		<div id="imagePicker">
 			<div id="choose">
@@ -31,6 +34,8 @@
 			<div style="clear:both"></div>
 		</div>
 
+		Frames per image: <input id="frames" type="text" size=4 value="25"></input><br>
+
 		<input id="create" type="button" value="Create!"><br><br>
 		<label id="link"></label>
 
@@ -39,7 +44,17 @@
 	</div>
 
 	<div id="footer">
+		Created by <a href="http://joshjohnson.io" target="_blank">Josh Johnson</a>.
+	</div>
 
+
+	<div id="presetDialog" autocomplete="off">
+		<div class='presetDiv'>
+			<select id="presetChoose" class="presetSelect" multiple></select>
+		</div>
+		<div class='presetDiv'>
+			<select id="presetOption" class="presetSelect" multiple></select>
+		</div>
 	</div>
 </body>
 </html>
