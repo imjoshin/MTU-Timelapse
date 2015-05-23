@@ -46,7 +46,7 @@ $(document).ready(function(){
 
 	$("#create").on("click", function(){
 		getImages();
-		
+
 		$.ajax({
 			type: 'POST',
 			url: 'php/ajax.php',
@@ -54,7 +54,8 @@ $(document).ready(function(){
 			data: {
 				call: "create",
 				images: getImages(),
-				frames: $("#frames").val()
+				frames: $("#frames").val(),
+				showTime: $("#showTime").is(':checked') ? 1 : 0
 			},
 			success: function(output){
 				$("#link").html("<a href='" + output + "' target='_blank'>" + output + "</a>");

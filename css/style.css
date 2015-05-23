@@ -47,6 +47,7 @@ select{
 	width:267px;
 	height:200px;
 	background-size:contain;
+	background-repeat: no-repeat;
 }
 
 #imagePicker{

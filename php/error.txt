@@ -1,2 +1,75 @@
-[22-May-2015 21:59:27 America/New_York] PHP Fatal error:  Call to undefined function imagecreatefromjpeg() in /var/www/html/MTU-Timelapse/php/gen.php on line 18
-[22-May-2015 22:00:07 America/New_York] PHP Fatal error:  Call to undefined function imagecreatefromjpeg() in /var/www/html/MTU-Timelapse/php/gen.php on line 17
+[22-May-2015 22:58:36 America/New_York] PHP Fatal error:  Call to a member function format() on a non-object in /var/www/html/MTU-Timelapse/php/gen.php on line 47
+[22-May-2015 23:00:40 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:40 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:41 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:42 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:42 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:42 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:42 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:00:42 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 24
+[22-May-2015 23:05:25 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[22-May-2015 23:05:25 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[22-May-2015 23:05:42 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[22-May-2015 23:05:42 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[22-May-2015 23:05:43 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[22-May-2015 23:05:43 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[22-May-2015 23:07:46 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[22-May-2015 23:07:46 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[22-May-2015 23:07:56 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[22-May-2015 23:07:56 America/New_York] PHP Warning:  imagettftext(): Could not find/open font in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[22-May-2015 23:17:34 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (05/22/15 22/10.jpg:00) at position 9 (2): Unexpected character' in /var/www/html/MTU-Timelapse/php/gen.php:48
+Stack trace:
+#0 /var/www/html/MTU-Timelapse/php/gen.php(48): DateTime->__construct('05/22/15 22/10....')
+#1 /var/www/html/MTU-Timelapse/php/gen.php(25): getTime('05-22-15/22-10....')
+#2 /var/www/html/MTU-Timelapse/php/ajax.php(18): include('/var/www/html/M...')
+#3 /var/www/html/MTU-Timelapse/php/ajax.php(12): getOutput('gen.php')
+#4 {main}
+  thrown in /var/www/html/MTU-Timelapse/php/gen.php on line 48
+[22-May-2015 23:18:00 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (05/22/15 22:10.jpg:00) at position 15 (j): The timezone could not be found in the database' in /var/www/html/MTU-Timelapse/php/gen.php:48
+Stack trace:
+#0 /var/www/html/MTU-Timelapse/php/gen.php(48): DateTime->__construct('05/22/15 22:10....')
+#1 /var/www/html/MTU-Timelapse/php/gen.php(25): getTime('05-22-15/22-10....')
+#2 /var/www/html/MTU-Timelapse/php/ajax.php(18): include('/var/www/html/M...')
+#3 /var/www/html/MTU-Timelapse/php/ajax.php(12): getOutput('gen.php')
+#4 {main}
+  thrown in /var/www/html/MTU-Timelapse/php/gen.php on line 48
+[22-May-2015 23:27:06 America/New_York] PHP Unknown error:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Empty input file in Unknown on line 0
+[22-May-2015 23:27:06 America/New_York] PHP Warning:  imagecreatefromjpeg(): '../cam/' is not a valid JPEG file in /var/www/html/MTU-Timelapse/php/gen.php on line 18
+[22-May-2015 23:27:06 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 21
+[22-May-2015 23:27:06 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 22
+[22-May-2015 23:27:06 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string ( :00) at position 0 (:): Unexpected character' in /var/www/html/MTU-Timelapse/php/gen.php:48
+Stack trace:
+#0 /var/www/html/MTU-Timelapse/php/gen.php(48): DateTime->__construct(' :00')
+#1 /var/www/html/MTU-Timelapse/php/gen.php(25): getTime('')
+#2 /var/www/html/MTU-Timelapse/php/ajax.php(18): include('/var/www/html/M...')
+#3 /var/www/html/MTU-Timelapse/php/ajax.php(12): getOutput('gen.php')
+#4 {main}
+  thrown in /var/www/html/MTU-Timelapse/php/gen.php on line 48
+[22-May-2015 23:27:26 America/New_York] PHP Unknown error:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: Empty input file in Unknown on line 0
+[22-May-2015 23:27:26 America/New_York] PHP Warning:  imagecreatefromjpeg(): '../cam/' is not a valid JPEG file in /var/www/html/MTU-Timelapse/php/gen.php on line 18
+[22-May-2015 23:27:26 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 21
+[22-May-2015 23:27:26 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 22
+[22-May-2015 23:27:26 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string ( :00) at position 0 (:): Unexpected character' in /var/www/html/MTU-Timelapse/php/gen.php:48
+Stack trace:
+#0 /var/www/html/MTU-Timelapse/php/gen.php(48): DateTime->__construct(' :00')
+#1 /var/www/html/MTU-Timelapse/php/gen.php(25): getTime('')
+#2 /var/www/html/MTU-Timelapse/php/ajax.php(18): include('/var/www/html/M...')
+#3 /var/www/html/MTU-Timelapse/php/ajax.php(12): getOutput('gen.php')
+#4 {main}
+  thrown in /var/www/html/MTU-Timelapse/php/gen.php on line 48
