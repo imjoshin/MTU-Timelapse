@@ -1,6 +1,6 @@
 $(document).ready(function(){  
 
-	
+
 	///////////////////////
 	// STARTUP PROCESSES //
 	///////////////////////
@@ -60,6 +60,7 @@ $(document).ready(function(){
 				$("#link").html("<a href='" + output + "' target='_blank'>" + output + "</a>");
 			},
 			error: function(output){
+				$("#link").html(output);
 				alert("An error occured.");
 			}
 		});		
@@ -77,7 +78,8 @@ $(document).ready(function(){
 
 	$("#images, #selected").on("mouseover", "option", function(){
 		$("#imagePreview").css('background-image', 'url(cam/' + $(this).data("d") + "/" + $(this).data("h") + ".jpg" + ')');
-		$("#imagePreview").fadeIn(200);
+		//$("#imagePreview").fadeIn(300);
+		$("#imagePreview").show();
 	});
 
 	$("#images, #selected").on("mouseout", "option", function(){
