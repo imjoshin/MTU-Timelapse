@@ -1,0 +1,2 @@
+[22-May-2015 21:59:27 America/New_York] PHP Fatal error:  Call to undefined function imagecreatefromjpeg() in /var/www/html/MTU-Timelapse/php/gen.php on line 18
+[22-May-2015 22:00:07 America/New_York] PHP Fatal error:  Call to undefined function imagecreatefromjpeg() in /var/www/html/MTU-Timelapse/php/gen.php on line 17
