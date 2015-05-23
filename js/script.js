@@ -61,6 +61,7 @@ $(document).ready(function(){
 			},
 			error: function(output){
 				$("#link").html(output);
+				console.log(output);
 				alert("An error occured.");
 			}
 		});		

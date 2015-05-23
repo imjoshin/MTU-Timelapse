@@ -7,11 +7,16 @@ header('Content-type:image/gif');
 include("plugins/GIFEncoder.class.php");
 $images = explode(",", $_POST["images"]);
 $f = intval($_POST["frames"]);
+
+file_put_contents("test.txt", "images: $images");
+
 if($f <= 0 || $f >= 1000)
     $f == 25;
 
 foreach($images as $i){
-	$image = imagecreatefromjpeg("../cam/" . $i);
+    file_put_contents("test.txt", "/var/www/html/MTU-Timelapse/cam/" . $i);
+	$image = imagecreatefromjpeg("/var/www/html/MTU-Timelapse/cam/" . $i);
+    //$image = imagecreatefromjpeg("../cam/" . $i);
 
 	ob_start();
 	imagegif($image);
