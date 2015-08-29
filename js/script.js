@@ -45,6 +45,7 @@ $(document).ready(function(){
 	});
 
 	$("#create").on("click", function(){
+		if($("#selected").has('option').length == 0) return;
 		getImages();
 
 		$.ajax({
@@ -55,7 +56,8 @@ $(document).ready(function(){
 				call: "create",
 				images: getImages(),
 				frames: $("#frames").val(),
-				showTime: $("#showTime").is(':checked') ? 1 : 0
+				showTime: $("#showTime").is(':checked') ? 1 : 0,
+				resolution: $("#resolution").val()
 			},
 			success: function(output){
 				$("#link").html("<a href='" + output + "' target='_blank'>" + output + "</a>");
