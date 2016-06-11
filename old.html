@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MTU Timelapse</title>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/ico.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/old.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/ui.css">
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script type="text/javascript" src="assets/js/old.js"></script>
+</head>
+
+<body>
+	<div id="header">
+		<h1>MTU Timelapse Generator</h1>
+	</div>
+
+	<div id="content">
+
+		<input id="presets" type="button" value="Presets"><br><br>
+
+		<div id="imagePicker">
+			<div id="choose">
+				<select id="dates"></select><br>
+				<select id="images" multiple></select>
+			</div>
+			<div id="mover">
+				<img id="arrow" src="img/arrow.png">
+			</div>
+			<div id="selection">
+				<select id="selected" multiple></select>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<br>
+		Frames per image: <input id="frames" type="text" size=4 value="25"></input>
+		<br>
+		Show timestamp on each frame: <input type="checkbox" id="showTime" checked>
+		<br>
+		Resolution:
+		<select id="resolution">
+			<option>640x360</option>
+			<option selected="selected">720x405</option>
+			<option>960x540</option>
+			<option>1024x576</option>
+			<option>1280x720</option>
+		</select>
+		<br>
+		<br>
+		<input id="create" type="button" value="Create!">
+		<br>
+		<br>
+		<label id="link"></label>
+
+		<div id="imagePreview"></div>
+
+	</div>
+
+	<div id="footer">
+		Created by <a href="http://joshjohnson.io" target="_blank">Josh Johnson</a>.
+	</div>
+
+
+	<div id="presetDialog" autocomplete="off">
+		<div class='presetDiv'>
+			<select id="presetChoose" class="presetSelect" multiple></select>
+		</div>
+		<div class='presetDiv'>
+			<select id="presetOption" class="presetSelect" multiple></select>
+		</div>
+	</div>
+</body>
+</html>

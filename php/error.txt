@@ -1,2 +1,62 @@
 [30-May-2015 11:10:30 America/New_York] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /var/www/html/MTU-Timelapse/php/gen.php on line 41
 [30-May-2015 11:13:43 America/New_York] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 11348440 bytes) in /var/www/html/MTU-Timelapse/php/plugins/GIFEncoder.class.php on line 208
+[17-Sep-2015 14:12:32 America/New_York] PHP Warning:  imagecreatefromjpeg(../cam/09-17-15/17-30~.jpg): failed to open stream: No such file or directory in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[17-Sep-2015 14:12:32 America/New_York] PHP Warning:  getimagesize(../cam/09-17-15/17-30~.jpg): failed to open stream: No such file or directory in /var/www/html/MTU-Timelapse/php/gen.php on line 27
+[17-Sep-2015 14:12:32 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 29
+[17-Sep-2015 14:12:32 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 30
+[17-Sep-2015 14:12:32 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (09/17/15 17:30~:00) at position 14 (~): Unexpected character' in /var/www/html/MTU-Timelapse/php/gen.php:59
+Stack trace:
+#0 /var/www/html/MTU-Timelapse/php/gen.php(59): DateTime->__construct('09/17/15 17:30~...')
+#1 /var/www/html/MTU-Timelapse/php/gen.php(32): getTime('09-17-15/17-30~...')
+#2 /var/www/html/MTU-Timelapse/php/ajax.php(18): include('/var/www/html/M...')
+#3 /var/www/html/MTU-Timelapse/php/ajax.php(12): getOutput('gen.php')
+#4 {main}
+  thrown in /var/www/html/MTU-Timelapse/php/gen.php on line 59
+[18-Sep-2015 00:13:55 America/New_York] PHP Warning:  imagecreatefromjpeg(../cam/09-17-15/17-30~.jpg): failed to open stream: No such file or directory in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[18-Sep-2015 00:13:55 America/New_York] PHP Warning:  getimagesize(../cam/09-17-15/17-30~.jpg): failed to open stream: No such file or directory in /var/www/html/MTU-Timelapse/php/gen.php on line 27
+[18-Sep-2015 00:13:55 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 29
+[18-Sep-2015 00:13:55 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 30
+[18-Sep-2015 00:13:55 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (09/17/15 17:30~:00) at position 14 (~): Unexpected character' in /var/www/html/MTU-Timelapse/php/gen.php:59
+Stack trace:
+#0 /var/www/html/MTU-Timelapse/php/gen.php(59): DateTime->__construct('09/17/15 17:30~...')
+#1 /var/www/html/MTU-Timelapse/php/gen.php(32): getTime('09-17-15/17-30~...')
+#2 /var/www/html/MTU-Timelapse/php/ajax.php(18): include('/var/www/html/M...')
+#3 /var/www/html/MTU-Timelapse/php/ajax.php(12): getOutput('gen.php')
+#4 {main}
+  thrown in /var/www/html/MTU-Timelapse/php/gen.php on line 59
+[25-Sep-2015 15:41:40 America/New_York] PHP Warning:  imagecreatefromjpeg(../cam/09-17-15/17-30~.jpg): failed to open stream: No such file or directory in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[25-Sep-2015 15:41:40 America/New_York] PHP Warning:  getimagesize(../cam/09-17-15/17-30~.jpg): failed to open stream: No such file or directory in /var/www/html/MTU-Timelapse/php/gen.php on line 27
+[25-Sep-2015 15:41:40 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 29
+[25-Sep-2015 15:41:40 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 30
+[25-Sep-2015 15:41:40 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (09/17/15 17:30~:00) at position 14 (~): Unexpected character' in /var/www/html/MTU-Timelapse/php/gen.php:59
+Stack trace:
+#0 /var/www/html/MTU-Timelapse/php/gen.php(59): DateTime->__construct('09/17/15 17:30~...')
+#1 /var/www/html/MTU-Timelapse/php/gen.php(32): getTime('09-17-15/17-30~...')
+#2 /var/www/html/MTU-Timelapse/php/ajax.php(18): include('/var/www/html/M...')
+#3 /var/www/html/MTU-Timelapse/php/ajax.php(12): getOutput('gen.php')
+#4 {main}
+  thrown in /var/www/html/MTU-Timelapse/php/gen.php on line 59
+[25-Sep-2015 15:41:47 America/New_York] PHP Warning:  imagecreatefromjpeg(../cam/09-17-15/17-30~.jpg): failed to open stream: No such file or directory in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[25-Sep-2015 15:41:47 America/New_York] PHP Warning:  getimagesize(../cam/09-17-15/17-30~.jpg): failed to open stream: No such file or directory in /var/www/html/MTU-Timelapse/php/gen.php on line 27
+[25-Sep-2015 15:41:47 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 29
+[25-Sep-2015 15:41:47 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 30
+[25-Sep-2015 15:41:47 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (09/17/15 17:30~:00) at position 14 (~): Unexpected character' in /var/www/html/MTU-Timelapse/php/gen.php:59
+Stack trace:
+#0 /var/www/html/MTU-Timelapse/php/gen.php(59): DateTime->__construct('09/17/15 17:30~...')
+#1 /var/www/html/MTU-Timelapse/php/gen.php(32): getTime('09-17-15/17-30~...')
+#2 /var/www/html/MTU-Timelapse/php/ajax.php(18): include('/var/www/html/M...')
+#3 /var/www/html/MTU-Timelapse/php/ajax.php(12): getOutput('gen.php')
+#4 {main}
+  thrown in /var/www/html/MTU-Timelapse/php/gen.php on line 59
+[21-Feb-2016 20:58:06 America/New_York] PHP Warning:  imagecreatefromjpeg(../cam/09-17-15/17-30~.jpg): failed to open stream: No such file or directory in /var/www/html/MTU-Timelapse/php/gen.php on line 26
+[21-Feb-2016 20:58:06 America/New_York] PHP Warning:  getimagesize(../cam/09-17-15/17-30~.jpg): failed to open stream: No such file or directory in /var/www/html/MTU-Timelapse/php/gen.php on line 27
+[21-Feb-2016 20:58:06 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 29
+[21-Feb-2016 20:58:06 America/New_York] PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in /var/www/html/MTU-Timelapse/php/gen.php on line 30
+[21-Feb-2016 20:58:06 America/New_York] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (09/17/15 17:30~:00) at position 14 (~): Unexpected character' in /var/www/html/MTU-Timelapse/php/gen.php:59
+Stack trace:
+#0 /var/www/html/MTU-Timelapse/php/gen.php(59): DateTime->__construct('09/17/15 17:30~...')
+#1 /var/www/html/MTU-Timelapse/php/gen.php(32): getTime('09-17-15/17-30~...')
+#2 /var/www/html/MTU-Timelapse/php/ajax.php(18): include('/var/www/html/M...')
+#3 /var/www/html/MTU-Timelapse/php/ajax.php(12): getOutput('gen.php')
+#4 {main}
+  thrown in /var/www/html/MTU-Timelapse/php/gen.php on line 59
